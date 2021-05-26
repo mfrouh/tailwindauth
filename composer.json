@@ -1,0 +1,20 @@
+{
+    "name": "mfrouh/tailwindauth",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MFrouh\\TailWindAuth\\":"src/"
+        }
+      },
+      "autoload-dev": {},
+      "extra": {
+          "laravel": {
+              "providers": [
+                  "MFrouh\\TailWindAuth\\Providers\\TailWindAuthServiceProvider"
+              ]
+          }
+      }
+}
